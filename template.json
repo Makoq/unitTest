@@ -1,0 +1,278 @@
+{
+    "$version": "2.0",
+    "$mode": "strict",
+    "type": "layout",
+    "css": "display:flex;flex-direction:row;background-color: #fff;height: auto;",
+    "body": [
+      {
+        "type": "layout",
+        "css": "width: 50%;flex: none;border-left:1px solid #ccc;",
+        "body": [
+          {
+            "type": "tpl",
+            "tpl": "<div><span style='fontWeight: 900'>点评图片</span></div>"
+          },
+          {
+            "type": "row",
+            "body": [
+              {
+                "type": "image",
+                "urlList": "{{ _source.picture }}",
+                "width": "200px",
+                "lineSize": 5,
+                "gutter": 5
+              }
+            ]
+          },
+          {
+            "type": "tpl",
+            "tpl": "<div ><span style='fontWeight: 900'>点评视频</span></div>"
+          },
+          {
+            "type": "row",
+            "body": [
+              {
+                "type": "iterator",
+                "list": "{{_source.video_info}}",
+                "css": "width: 100%;",
+                "body": {
+                  "type": "collapse",
+                  "accordion": true,
+                  "css": "background: #EAEAEF;width: 100%;",
+                  "defaultActive": [
+                    "点评视频"
+                  ],
+                  "panels": [
+                    {
+                      "name": "点评视频",
+                      "header": "点评视频{{_index}}",
+                      "body": [
+                        {
+                          "type": "row",
+                          "body": [
+                            {
+                              "type": "xgvideo",
+                              "reload": true,
+                              "url": "{{url}}",
+                              "preloadVideo": true,
+                              "width": 300,
+                              "height": 264,
+                              "autoplayMuted": false
+                            }
+                          ]
+                        },
+                        {
+                          "type": "tpl",
+                          "tpl": "<div><span style='fontWeight: 900'>普通抽帧</span></div>"
+                        },
+                        {
+                          "type": "row",
+                          "body": [
+                            {
+                              "type": "image",
+                              "urlList": "{{ frame_dict }}",
+                              "width": "200px",
+                              "lineSize": 5,
+                              "gutter": 5,
+                              "action": {
+                                "target": "xg",
+                                "actionType": "seek",
+                                "payload": {
+                                  "currentTime": "{{ cut_time  }}"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "tpl",
+                          "tpl": "<div ><span style='fontWeight: 900'>语音转文字</span><p>{{ asr_info}}<p></div>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "layout",
+        "css": "width: 50%;flex: none;border-left:1px solid #ccc;",
+        "body": [
+          {
+            "type": "row",
+            "data-type": "list",
+            "body": [
+              {
+                "type": "collapse",
+                "accordion": false,
+                "css": "background: #EAEAEF;",
+                "defaultActive": [
+                  "做业文本",
+                  "其他信息",
+                  "审核操作",
+                  "审核备注"
+                ],
+                "panels": [
+                  {
+                    "name": "做业文本",
+                    "header": "做业文本",
+                    "body": {
+                      "type": "tcs-form",
+                      "mode": "inline",
+                      "controls": [
+                        {
+                          "type": "tpl",
+                          "tpl": "<div style='margin-left:0'>{{_source.text_info}}</div>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "其他信息",
+                    "header": "其他信息",
+                    "body": {
+                      "type": "tcs-form",
+                      "controls": [
+                        {
+                          "label": "发布时间",
+                          "type": "tpl",
+                          "tpl": "<div >{{_source.tcs_extra.create_time}}</div>"
+                        },
+                        {
+                          "label": "UID",
+                          "type": "tpl",
+                          "tpl": "<div >{{_source.tcs_extra.uid}}</div>"
+                        },
+                        {
+                          "label": "模型信息",
+                          "type": "tpl",
+                          "tpl": "<div >{{_source.tcs_extra.model}}</div>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "审核操作",
+                    "header": "审核操作",
+                    "body": [
+                      {
+                        "type": "tcs-form",
+                        "submitValidate": "{{(data) => { return _fn.submitValidate(data, _form)};}}",
+                        "controls": [
+                          {
+                            "label": "审核结果",
+                            "type": "tpl",
+                            "tpl": "<strong style='color:red;margin-left:-20px' >*</strong>"
+                          },
+                          {
+                            "type": "radio",
+                            "name": "result",
+                            "size": "large",
+                            "css": "{{_model.formStyle}}",
+                            "radios": [
+                              {
+                                "label": "通过",
+                                "value": "1"
+                              },
+                              {
+                                "label": "不通过",
+                                "value": "2"
+                              }
+                            ],
+                            "value": "1"
+                          },
+                          {
+                            "type": "checkbox",
+                            "visible": "{{ result === '2' }}",
+                            "name": "image",
+                            "size": "large",
+                            "css": "{{_model.formStyle}}",
+                            "options": [
+                              {
+                                "label": "图片",
+                                "value": "image"
+                              }
+                            ],
+                            "value": "image"
+                          },
+                          {
+                            "type": "select",
+                            "isDefaultOpen": "{{ result === '2' }}",
+                            "visible": "{{ result === '2' }}",
+                            "placeholder": "请选择图片违规原因",
+                            "multiple": true,
+                            "css": "{{_model.formStyle}}",
+                            "name": "image_illegal",
+                            "options": "{{ _model.SELECT_OPTIONS }}"
+                          },
+                          {
+                            "type": "checkbox",
+                            "visible": "{{ result === '2' }}",
+                            "name": "video",
+                            "size": "large",
+                            "css": "{{_model.formStyle}}",
+                            "options": [
+                              {
+                                "label": "视频",
+                                "value": "vieo"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "select",
+                            "visible": "{{ result === '2' }}",
+                            "placeholder": "请选择视频违规原因",
+                            "multiple": true,
+                            "css": "{{_model.formStyle}}",
+                            "name": "video_illegal",
+                            "options": "{{ _model.SELECT_OPTIONS }}"
+                          },
+                          {
+                            "type": "checkbox",
+                            "visible": "{{ result === '2' }}",
+                            "name": "text",
+                            "size": "large",
+                            "css": "{{_model.formStyle}}",
+                            "options": [
+                              {
+                                "label": "文本",
+                                "value": "text"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "select",
+                            "visible": "{{ result === '2' }}",
+                            "placeholder": "请选择文本违规原因",
+                            "multiple": true,
+                            "css": "{{_model.formStyle}}",
+                            "name": "text_illegal",
+                            "options": "{{ _model.SELECT_OPTIONS }}"
+                          },
+                          {
+                            "type": "tpl",
+                            "tpl": "<div style='background:#eaeaef;margin:10px -20px 0 -96px;line-height: 32px;height: 32px;font-weight: 500;'><span style='color:black;margin-left:20px;' >审核备注</span></div>"
+                          },
+                          {
+                            "type": "input",
+                            "name": "remark",
+                            "css": "{{_model.formStyle}}",
+                            "placeholder": "请输入文本",
+                            "inputType": "textarea",
+                            "rows": 5
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

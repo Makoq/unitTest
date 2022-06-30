@@ -1,0 +1,66 @@
+[
+    {
+      "tcs_extra": {
+        "uid": 123,
+        "create_time": 1653312198,
+        "model": "模型"
+      },
+      "text_info": "sb",
+      "audio_info": [
+        {
+          "url": "https://tosv.byted.org/obj/ttfe/33910000013210654db7_1583919155886.mp3",
+          "asr_info": "123"
+        },
+        {
+          "url": "https://tosv.byted.org/obj/ttfe/33910000013210654db7_1583919155886.mp3",
+          "asr_info": "123"
+        }
+      ],
+      "video_info": [
+        {
+          "url": "https://tosv.byted.org/obj/ttfe/958e10000c395bfaaf010_1583911646866.mp4",
+          "vid": "123",
+          "duration": 1000,
+          "size": 1000,
+          "risk_frame_dict": [
+            {
+              "url": "http://image-boe.byted.org/storage/v1/tos-cn-vfp-0000/376984c1b2b4ad1cc0ea0451ea884b5f?caller=toutiao.videoarch.guldan&signature=VARCH1-HMAC-SHA1%3Afcfc52beaf8e39b8880ca8a84b38b74a%3A1659149890%3A%2BQ3ebbv8ulcS9zDxL2qxAUYsPh0%3D",
+              "label": "色情低俗",
+              "cut_time": 600,
+              "frame_no": 12
+            }
+          ],
+          "frame_dict": [
+            {
+              "url": "http://image-boe.byted.org/storage/v1/tos-cn-vfp-0000/376984c1b2b4ad1cc0ea0451ea884b5f?caller=toutiao.videoarch.guldan&signature=VARCH1-HMAC-SHA1%3Afcfc52beaf8e39b8880ca8a84b38b74a%3A1659149890%3A%2BQ3ebbv8ulcS9zDxL2qxAUYsPh0%3D",
+              "label": "色情低俗",
+              "cut_time": 600
+            },
+            {
+              "url": "http://image-boe.byted.org/storage/v1/tos-cn-vfp-0000/376984c1b2b4ad1cc0ea0451ea884b5f?caller=toutiao.videoarch.guldan&signature=VARCH1-HMAC-SHA1%3Afcfc52beaf8e39b8880ca8a84b38b74a%3A1659149890%3A%2BQ3ebbv8ulcS9zDxL2qxAUYsPh0%3D",
+              "label": "色情低俗",
+              "cut_time": 600
+            }
+          ],
+          "asr_info": "12sb3",
+          "text_highlight": {
+            "sb": {
+              "style": "yellow",
+              "notes": [
+                {
+                  "note": "sb敏感词",
+                  "style": "red"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "picture": [
+        {
+          "url": "http://image-boe.byted.org/storage/v1/tos-cn-vfp-0000/376984c1b2b4ad1cc0ea0451ea884b5f?caller=toutiao.videoarch.guldan&signature=VARCH1-HMAC-SHA1%3Afcfc52beaf8e39b8880ca8a84b38b74a%3A1659149890%3A%2BQ3ebbv8ulcS9zDxL2qxAUYsPh0%3D",
+          "frame_no": "123"
+        }
+      ]
+    }
+  ]

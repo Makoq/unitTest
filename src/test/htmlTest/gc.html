@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>内存测试</title>
+</head>
+<body>
+   <div>
+      <button id="grow">grow</button>
+   </div>
+
+   <script>
+   
+      function grow() {
+         x = [];
+
+        const str = new Array(100000).join('x');
+
+        for (let i=0; i<100000000; i++) {
+          x.push(str)
+        }
+      }
+      
+      document.getElementById('grow').addEventListener('click', grow);
+   </script>
+</body>
+</html>

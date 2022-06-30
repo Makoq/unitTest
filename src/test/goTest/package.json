@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "classnames": "^2.3.1"
+  }
+}

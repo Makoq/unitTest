@@ -1,0 +1,201 @@
+
+<html>
+    <body>
+        
+        <div>
+            <h1>Remote</h1>
+            <div id="peer" style="display: flex;"></div>
+        </div>
+        <div>
+            <h1>Local</h1>
+            <video id="myVido" autoplay style="width:100px"></video>
+        </div>
+    </body>
+<script>
+  //记录用户
+  var peers={}
+
+  var uid
+
+  var getUserMediaStream
+
+  var localRTCConn
+
+  var localStreamFlag=false
+  // 与信令服务器的WebSocket连接
+  var socket = new WebSocket(" ws://127.0.0.1:3000",["key",1]);
+  
+   // stun和turn服务器
+   var iceServer = {
+        "iceServers": [{
+            urls:"stun:stun.l.google.com:19302"
+        }]
+   };
+
+    //连接到信令服务器
+    socket.onopen=function(){
+        //摄像头兼容性处理
+        navigator.getUserMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+        // 获取本地音频和视频流
+        navigator.mediaDevices.getUserMedia({
+                        "audio": false,
+                        "video": true
+        }).then( (stream)=> {
+            //显示自己的输出流，挂到页面Video元素上
+            document.getElementById("myVido").srcObject=stream
+        })
+       
+    }
+    
+    socket.onmessage=function(data){
+        
+        let signalMsg=JSON.parse(data.data)
+
+        console.log("on data --",signalMsg["event"])
+
+        //记录自己的uid
+        if(signalMsg["event"]=="ownID"){
+            uid=signalMsg["uid"]
+
+            console.log("myuid is ",uid)
+        }
+
+        if(signalMsg["event"]=="addPeer"){
+
+            if(signalMsg['data']['peerId'] in peers){
+                console.log('已建立RTCPeerConnect')
+                return;
+            }
+            var peerRTCConn=new RTCPeerConnection(iceServer);
+            //记录RTCPeerConnection
+            peers[signalMsg['data']['peerId']]=peerRTCConn
+            
+            // 发送ICE候选到其他客户端
+            peerRTCConn.onicecandidate = function(event){
+                if (event.candidate) {
+                    //向信令服务器转发收集到的ICE候选
+                      socket.send(JSON.stringify({
+                        "event": "relayICECandidate",
+                        "data": {
+                            'iceCandidate': {
+                                'sdpMLineIndex': event.candidate.sdpMLineIndex,
+                                'candidate': event.candidate.candidate
+                            }
+                        },
+                        "fromID":signalMsg['data']['peerId']
+                    }));
+                }
+            }
+            //有媒体流介入就挂载dom
+            peerRTCConn.ontrack=function(event){
+                let v=document.createElement("video")
+                v.autoplay=true
+                v.style="width:200px;margin-left:20px;border:1px solid black"
+               
+                document.getElementById("peer").appendChild(v)
+                v.srcObject=event.streams[0]
+            }
+          //本地媒体流
+          localMedia(peerRTCConn,signalMsg["offer"],signalMsg["data"].peerId)
+            console.log("****",peers)
+
+        }
+
+        //响应媒体描述交换请求
+        if(signalMsg["event"]=="sessionDescription"){
+            console.log("setRemoteDescription")
+            let remoteDdescription = signalMsg["data"];
+            let peer =peers[signalMsg['fromId']]
+            let dec =new RTCSessionDescription(remoteDdescription)
+            console.log("sessionDescription---",signalMsg)
+            if(signalMsg["data"].type=="answer"){
+                peer.setRemoteDescription(dec)
+                return
+            }
+
+            peer.setRemoteDescription(dec, 
+                function() {
+                    console.log("setRemoteDescription succeeded");
+                    if (remoteDdescription.type == "offer") {
+                        console.log("Creating answer");
+                        peer.createAnswer(
+                            function(_remoteDescription) {
+                                // console.log("Answer description is: ", _remoteDescription);
+                                peer.setLocalDescription(_remoteDescription,
+                                    function() { 
+                                           //发送描述信息给信令服务器
+                                            socket.send(JSON.stringify({
+                                                "event":"relaySessionDescription",
+                                                "data":_remoteDescription,
+                                                "callerID":signalMsg['fromId'],
+                                                "fromID":signalMsg['fromId']
+                                            }))
+                                        
+                                            console.log("Answer setLocalDescription succeeded");
+                                    },
+                                    function() { alert("Answer setLocalDescription failed!"); }
+                                );
+                            },
+                            function(error) {
+                                console.log("Error creating answer: ", error);
+                            });
+                    }else{
+                    }
+                },
+                function(error) {
+                    console.log("setRemoteDescription error: ", error);
+                }
+            );
+
+        }
+        //添加候选
+        if(signalMsg["event"]=="iceCandidate"){
+            console.log("iceCandidate received",signalMsg["data"])
+            var peer = peers[signalMsg["fromID"]];
+            peer.addIceCandidate(new RTCIceCandidate(signalMsg["data"].iceCandidate));
+         
+        }
+    }
+    function localMedia(con,canOffer,peerId){
+         //摄像头兼容性处理
+         navigator.getUserMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+        // 获取本地音频和视频流
+        navigator.mediaDevices.getUserMedia({
+                        "audio": false,
+                        "video": true
+        }).then( (stream)=> {
+            //作为自己的输出流
+            con.addStream(stream)
+            //新加入节点发送offer
+            if(canOffer){
+                con.createOffer(
+                    function (localDescription) { 
+                        console.log("Local offer description is: ", localDescription);
+                        con.setLocalDescription(localDescription,
+                            function() { 
+                                //发送描述信息给信令服务器
+                                socket.send(JSON.stringify({
+                                    "event":"relaySessionDescription",
+                                    "data":localDescription,
+                                    "fromID":peerId
+                                }))
+                                console.log("Offer setLocalDescription succeeded",localDescription); 
+                            },
+                            function() { alert("Offer setLocalDescription failed!"); }
+                        );
+                    },
+                    function (error) {
+                        console.log("Error sending offer: ", error);
+                    }
+                )
+            }
+        })
+    }
+</script>   
+</html>

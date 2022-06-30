@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "strict": true,
+        "lib": ["es2016", "dom"],
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "src"
+    ]
+}

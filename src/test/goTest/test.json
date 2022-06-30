@@ -1,0 +1,1818 @@
+{
+	"status_code": 0,
+	"message": "success",
+	"prompt": "",
+	"time": 1631529702079,
+	"data": {
+		"bullet_list": [{
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第6天打脸了"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间践行者徽章"
+		}, {
+			"user": [{
+				"uid": 3438915013328648,
+				"uid_str": "3438915013328648",
+				"pack_level": 100,
+				"status": 1,
+				"name": "好学生建",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"student": {
+					"grade": 8,
+					"grade_name": "初二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 589,
+				"next_level_score": 650
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3438915013578504,
+				"uid_str": "3438915013578504",
+				"pack_level": 100,
+				"status": 1,
+				"name": "再回到从前",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/557eddcdcc8b4426666df5f7e234dd2f~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1052,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 483430607633582,
+				"uid_str": "483430607633582",
+				"pack_level": 100,
+				"status": 1,
+				"name": "敏感词啊啧啧啧亲戚去去去",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/c7c356e6e96efe76982f5e68612461a8~300x300.image",
+				"intro": "添加简介",
+				"student": {
+					"grade": 6,
+					"grade_name": "六年级"
+				},
+				"level": 5,
+				"im_user_role": null,
+				"total_score": 1621,
+				"next_level_score": 1950
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 3438915013316360,
+				"uid_str": "3438915013316360",
+				"pack_level": 100,
+				"status": 1,
+				"name": "试一下",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/e5dae924edec5a7d0fe894e7a5ea4c42~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 8,
+				"im_user_role": null,
+				"total_score": 5642,
+				"next_level_score": 8150
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 1697288610909368,
+				"uid_str": "1697288610909368",
+				"pack_level": 100,
+				"status": 1,
+				"name": "搬砖🧱文",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"intro": "去去去惹",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 964,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3677247472666199,
+				"uid_str": "3677247472666199",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户7694902305733",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/0c52ffc7630d4870805e7e325751e06e~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 26,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第4天打脸了"
+		}, {
+			"user": [{
+				"uid": 3869889576054311,
+				"uid_str": "3869889576054311",
+				"pack_level": 100,
+				"status": 1,
+				"name": "四号线。一定会长和我一起",
+				"avatar": "https://sf3-ttcdn-tos.pstatp.com/img/motor-img/40394bbee9ecbea614ca0059eeb2e19e~0x0.image",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 418,
+				"next_level_score": 650
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 3149438664844807,
+				"uid_str": "3149438664844807",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户656298534416",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3796/2975850990~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 95,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡3天"
+		}, {
+			"user": [{
+				"uid": 1451781372804926,
+				"uid_str": "1451781372804926",
+				"pack_level": 100,
+				"status": 1,
+				"name": "12342278756",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/697646bdb4ff4c758d8987b326642a4b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间旅行者徽章"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡2天"
+		}, {
+			"user": [{
+				"uid": 4398498806235511,
+				"uid_str": "4398498806235511",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2323756849019",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/2a444009b26046e5aad8fcb13e620da2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间旅行者徽章"
+		}, {
+			"user": [{
+				"uid": 588980810687687,
+				"uid_str": "588980810687687",
+				"pack_level": 100,
+				"status": 1,
+				"name": "小mimi哦哦哦哦",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/1bca7c3c147252bfb04033298283d039~0x0.image",
+				"student": {
+					"grade": 11,
+					"grade_name": "高二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 450,
+				"next_level_score": 650
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间践行者徽章"
+		}, {
+			"user": [{
+				"uid": 3438915013328648,
+				"uid_str": "3438915013328648",
+				"pack_level": 100,
+				"status": 1,
+				"name": "好学生建",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"student": {
+					"grade": 8,
+					"grade_name": "初二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 589,
+				"next_level_score": 650
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 1055157201680295,
+				"uid_str": "1055157201680295",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户6184574655625",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3791/5035712059~300x300.image",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 483430607891630,
+				"uid_str": "483430607891630",
+				"pack_level": 100,
+				"status": 1,
+				"name": "C同学（PC）cc",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/edd5c5019835670fcc86eb550735f1bc~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 5,
+				"im_user_role": null,
+				"total_score": 1661,
+				"next_level_score": 1950
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 3149438664602702,
+				"uid_str": "3149438664602702",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2532620783428",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/53b4c7f90f1d46e786484fb5dcedfaa2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 63,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡3天"
+		}, {
+			"user": [{
+				"uid": 3702800662415976,
+				"uid_str": "3702800662415976",
+				"pack_level": 100,
+				"status": 1,
+				"name": "A同学事情恩爱奇艺视频呢",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/69985966d19fbc8ae8a3a735e4bea549~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1039,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "第2天打脸了"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡15分钟"
+		}, {
+			"user": [{
+				"uid": 3702800662415976,
+				"uid_str": "3702800662415976",
+				"pack_level": 100,
+				"status": 1,
+				"name": "A同学事情恩爱奇艺视频呢",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/69985966d19fbc8ae8a3a735e4bea549~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1039,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第7天打脸了"
+		}, {
+			"user": [{
+				"uid": 2551322796623127,
+				"uid_str": "2551322796623127",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户橡胶机械小姐姐的人我",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/a8b81c86eea8e66fae88713db5cec7b0~300x300.image",
+				"intro": "新疆城建",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 269,
+				"next_level_score": 350
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 4468895858564350,
+				"uid_str": "4468895858564350",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8498658248889",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/e03e5304f019463098d0c7616a5e678b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间管理者徽章"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 3149438664844807,
+				"uid_str": "3149438664844807",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户656298534416",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3796/2975850990~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 95,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡6天"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间旅行者徽章"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡15分钟"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡15分钟"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间践行者徽章"
+		}, {
+			"user": [{
+				"uid": 1697288610909368,
+				"uid_str": "1697288610909368",
+				"pack_level": 100,
+				"status": 1,
+				"name": "搬砖🧱文",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"intro": "去去去惹",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 964,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3438915013578504,
+				"uid_str": "3438915013578504",
+				"pack_level": 100,
+				"status": 1,
+				"name": "再回到从前",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/557eddcdcc8b4426666df5f7e234dd2f~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1052,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "第2天打脸了"
+		}, {
+			"user": [{
+				"uid": 588980810687687,
+				"uid_str": "588980810687687",
+				"pack_level": 100,
+				"status": 1,
+				"name": "小mimi哦哦哦哦",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/1bca7c3c147252bfb04033298283d039~0x0.image",
+				"student": {
+					"grade": 11,
+					"grade_name": "高二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 450,
+				"next_level_score": 650
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间管理者徽章"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 1451781372804926,
+				"uid_str": "1451781372804926",
+				"pack_level": 100,
+				"status": 1,
+				"name": "12342278756",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/697646bdb4ff4c758d8987b326642a4b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 1055157201680295,
+				"uid_str": "1055157201680295",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户6184574655625",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3791/5035712059~300x300.image",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡15分钟"
+		}, {
+			"user": [{
+				"uid": 3438915013578504,
+				"uid_str": "3438915013578504",
+				"pack_level": 100,
+				"status": 1,
+				"name": "再回到从前",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/557eddcdcc8b4426666df5f7e234dd2f~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1052,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 3149438664602702,
+				"uid_str": "3149438664602702",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2532620783428",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/53b4c7f90f1d46e786484fb5dcedfaa2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 63,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡4天"
+		}, {
+			"user": [{
+				"uid": 581022743009031,
+				"uid_str": "581022743009031",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户5750034558071",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/00001476dd3a4194b37928b8fcf5ebdb~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间管理者徽章"
+		}, {
+			"user": [{
+				"uid": 1451781372804926,
+				"uid_str": "1451781372804926",
+				"pack_level": 100,
+				"status": 1,
+				"name": "12342278756",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/697646bdb4ff4c758d8987b326642a4b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 483430607633582,
+				"uid_str": "483430607633582",
+				"pack_level": 100,
+				"status": 1,
+				"name": "敏感词啊啧啧啧亲戚去去去",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/c7c356e6e96efe76982f5e68612461a8~300x300.image",
+				"intro": "添加简介",
+				"student": {
+					"grade": 6,
+					"grade_name": "六年级"
+				},
+				"level": 5,
+				"im_user_role": null,
+				"total_score": 1621,
+				"next_level_score": 1950
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 2436943791029006,
+				"uid_str": "2436943791029006",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户796532629082",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/c9ef31b1377545a0b041d3bb9c6afc7d~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡15分钟"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间践行者徽章"
+		}, {
+			"user": [{
+				"uid": 3702800661879416,
+				"uid_str": "3702800661879416",
+				"pack_level": 100,
+				"status": 1,
+				"name": "B同学",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/547d2355b296232aee96eff6dc762902~300x300.image",
+				"student": {
+					"grade": 11,
+					"grade_name": "高二"
+				},
+				"level": 6,
+				"im_user_role": null,
+				"total_score": 2092,
+				"next_level_score": 3150
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 2436943791029006,
+				"uid_str": "2436943791029006",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户796532629082",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/c9ef31b1377545a0b041d3bb9c6afc7d~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3438915013328648,
+				"uid_str": "3438915013328648",
+				"pack_level": 100,
+				"status": 1,
+				"name": "好学生建",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"student": {
+					"grade": 8,
+					"grade_name": "初二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 589,
+				"next_level_score": 650
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 3149438664844807,
+				"uid_str": "3149438664844807",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户656298534416",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3796/2975850990~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 95,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡5天"
+		}, {
+			"user": [{
+				"uid": 3149438664844807,
+				"uid_str": "3149438664844807",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户656298534416",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3796/2975850990~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 95,
+				"next_level_score": 350
+			}],
+			"bullet_content": "坚持打卡4天"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 2551322796623127,
+				"uid_str": "2551322796623127",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户橡胶机械小姐姐的人我",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/a8b81c86eea8e66fae88713db5cec7b0~300x300.image",
+				"intro": "新疆城建",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 269,
+				"next_level_score": 350
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了小坚持徽章"
+		}, {
+			"user": [{
+				"uid": 581022743009031,
+				"uid_str": "581022743009031",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户5750034558071",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/00001476dd3a4194b37928b8fcf5ebdb~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间旅行者徽章"
+		}, {
+			"user": [{
+				"uid": 3438915013328648,
+				"uid_str": "3438915013328648",
+				"pack_level": 100,
+				"status": 1,
+				"name": "好学生建",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"student": {
+					"grade": 8,
+					"grade_name": "初二"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 589,
+				"next_level_score": 650
+			}],
+			"bullet_content": "坚持打卡2天"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 4468895858564350,
+				"uid_str": "4468895858564350",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8498658248889",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/e03e5304f019463098d0c7616a5e678b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡6天"
+		}, {
+			"user": [{
+				"uid": 1055157201680295,
+				"uid_str": "1055157201680295",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户6184574655625",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3791/5035712059~300x300.image",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3677247472666199,
+				"uid_str": "3677247472666199",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户7694902305733",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/0c52ffc7630d4870805e7e325751e06e~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 26,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡2天"
+		}, {
+			"user": [{
+				"uid": 3702800661879416,
+				"uid_str": "3702800661879416",
+				"pack_level": 100,
+				"status": 1,
+				"name": "B同学",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/547d2355b296232aee96eff6dc762902~300x300.image",
+				"student": {
+					"grade": 11,
+					"grade_name": "高二"
+				},
+				"level": 6,
+				"im_user_role": null,
+				"total_score": 2092,
+				"next_level_score": 3150
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 2436943791029006,
+				"uid_str": "2436943791029006",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户796532629082",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/c9ef31b1377545a0b041d3bb9c6afc7d~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 1697288610655224,
+				"uid_str": "1697288610655224",
+				"pack_level": 100,
+				"status": 1,
+				"name": "名字超长名字超长名字超长",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/097dc249fd402ca71936c2dca416eb79~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 5,
+				"im_user_role": null,
+				"total_score": 1921,
+				"next_level_score": 1950
+			}],
+			"bullet_content": "第2天打脸了"
+		}, {
+			"user": [{
+				"uid": 2744833318591943,
+				"uid_str": "2744833318591943",
+				"pack_level": 100,
+				"status": 1,
+				"name": "719回电话给知识手机没",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/0301db2b5d6e47769fa1c08455fd0cd0~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 119,
+				"next_level_score": 350
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 1697288610909368,
+				"uid_str": "1697288610909368",
+				"pack_level": 100,
+				"status": 1,
+				"name": "搬砖🧱文",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/motor-img/a8f48f6c097b407136b22de90d2c904c~0x0.image",
+				"intro": "去去去惹",
+				"student": {
+					"grade": 3,
+					"grade_name": "三年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 964,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 581022743009031,
+				"uid_str": "581022743009031",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户5750034558071",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/00001476dd3a4194b37928b8fcf5ebdb~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 3438915013316360,
+				"uid_str": "3438915013316360",
+				"pack_level": 100,
+				"status": 1,
+				"name": "试一下",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/e5dae924edec5a7d0fe894e7a5ea4c42~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 8,
+				"im_user_role": null,
+				"total_score": 5642,
+				"next_level_score": 8150
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 1654121308632183,
+				"uid_str": "1654121308632183",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8888139653134",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/4d7623a4ddfb45189546f54ccc6e11d1~1080x1080.jpeg",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 29,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 3869889576054311,
+				"uid_str": "3869889576054311",
+				"pack_level": 100,
+				"status": 1,
+				"name": "四号线。一定会长和我一起",
+				"avatar": "https://sf3-ttcdn-tos.pstatp.com/img/motor-img/40394bbee9ecbea614ca0059eeb2e19e~0x0.image",
+				"student": {
+					"grade": 400,
+					"grade_name": "学龄前"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 418,
+				"next_level_score": 650
+			}],
+			"bullet_content": "第1天打脸了"
+		}, {
+			"user": [{
+				"uid": 2436943791029006,
+				"uid_str": "2436943791029006",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户796532629082",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/c9ef31b1377545a0b041d3bb9c6afc7d~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡2天"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡6天"
+		}, {
+			"user": [{
+				"uid": 4433683178591271,
+				"uid_str": "4433683178591271",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用光头了吧唧嘴里的钱钱钱",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/b106b3005a1248c39b385e88668be807~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 87,
+				"next_level_score": 350
+			}],
+			"bullet_content": "第2天打脸了"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡6天"
+		}, {
+			"user": [{
+				"uid": 1820436716069645,
+				"uid_str": "1820436716069645",
+				"pack_level": 100,
+				"status": 1,
+				"name": "习近平",
+				"avatar": "https://sf3-ttcdn-tos.pstatp.com/img/motor-img/2a9ec5ea079dbeca727c82279f0a457c~0x0.image",
+				"student": {
+					"grade": 10,
+					"grade_name": "高一"
+				},
+				"level": 3,
+				"im_user_role": null,
+				"total_score": 544,
+				"next_level_score": 650
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 2436943791029006,
+				"uid_str": "2436943791029006",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户796532629082",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/c9ef31b1377545a0b041d3bb9c6afc7d~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 581022743009031,
+				"uid_str": "581022743009031",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户5750034558071",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/00001476dd3a4194b37928b8fcf5ebdb~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 2251454720510142,
+				"uid_str": "2251454720510142",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2738231835181",
+				"avatar": "https://sf1-ttcdn-tos.pstatp.com/img/mosaic-legacy/3793/3114521287~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 21,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 4468895858564350,
+				"uid_str": "4468895858564350",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户8498658248889",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/e03e5304f019463098d0c7616a5e678b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 2850414742482727,
+				"uid_str": "2850414742482727",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户1338832444210",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/5f40b1afa3ee4337a91179fe54b42b6c~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "收获了时间旅行者徽章"
+		}, {
+			"user": [{
+				"uid": 4398498806235511,
+				"uid_str": "4398498806235511",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2323756849019",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/2a444009b26046e5aad8fcb13e620da2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 4398498806235511,
+				"uid_str": "4398498806235511",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2323756849019",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/2a444009b26046e5aad8fcb13e620da2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 1,
+				"next_level_score": 50
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 3149438664602702,
+				"uid_str": "3149438664602702",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户2532620783428",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/53b4c7f90f1d46e786484fb5dcedfaa2~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 63,
+				"next_level_score": 350
+			}],
+			"bullet_content": "第5天打脸了"
+		}, {
+			"user": [{
+				"uid": 3677247472666199,
+				"uid_str": "3677247472666199",
+				"pack_level": 100,
+				"status": 1,
+				"name": "用户7694902305733",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/0c52ffc7630d4870805e7e325751e06e~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 26,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡3天"
+		}, {
+			"user": [{
+				"uid": 3438915013578504,
+				"uid_str": "3438915013578504",
+				"pack_level": 100,
+				"status": 1,
+				"name": "再回到从前",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/557eddcdcc8b4426666df5f7e234dd2f~300x300.image",
+				"student": {
+					"grade": 5,
+					"grade_name": "五年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1052,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "开启每天打卡10分钟"
+		}, {
+			"user": [{
+				"uid": 3702800662415976,
+				"uid_str": "3702800662415976",
+				"pack_level": 100,
+				"status": 1,
+				"name": "A同学事情恩爱奇艺视频呢",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/69985966d19fbc8ae8a3a735e4bea549~300x300.image",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 4,
+				"im_user_role": null,
+				"total_score": 1039,
+				"next_level_score": 1150
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 3360588152452791,
+				"uid_str": "3360588152452791",
+				"pack_level": 100,
+				"status": 1,
+				"name": "在家里面有人给你说了我也",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/de63d05d7cbb4ab6ba80515db1d24c06~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡1天"
+		}, {
+			"user": [{
+				"uid": 686512176106270,
+				"uid_str": "686512176106270",
+				"pack_level": 100,
+				"status": 1,
+				"name": "大家都回电话等会像你这种",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/20e0b32fb4534ba68faacff03548d60f~1080x1080.jpeg",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 78,
+				"next_level_score": 350
+			}],
+			"bullet_content": "第3天打脸了"
+		}, {
+			"user": [{
+				"uid": 1451781372804926,
+				"uid_str": "1451781372804926",
+				"pack_level": 100,
+				"status": 1,
+				"name": "12342278756",
+				"avatar": "https://p-boe.byted.org/img/tos-boe-o-0000/697646bdb4ff4c758d8987b326642a4b~1080x1080.jpeg",
+				"student": {
+					"grade": 500,
+					"grade_name": "成人"
+				},
+				"level": 1,
+				"im_user_role": null,
+				"total_score": 12,
+				"next_level_score": 50
+			}],
+			"bullet_content": "坚持打卡7天"
+		}, {
+			"user": [{
+				"uid": 2049133365436919,
+				"uid_str": "2049133365436919",
+				"pack_level": 100,
+				"status": 1,
+				"name": "ep中台1",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/f43f57aea934b0e10b30f939553b616d~300x300.image",
+				"intro": "啊啊",
+				"student": {
+					"grade": 1,
+					"grade_name": "一年级"
+				},
+				"level": 2,
+				"im_user_role": null,
+				"total_score": 109,
+				"next_level_score": 350
+			}],
+			"bullet_content": "开启每天打卡20分钟"
+		}, {
+			"user": [{
+				"uid": 3702800661879416,
+				"uid_str": "3702800661879416",
+				"pack_level": 100,
+				"status": 1,
+				"name": "B同学",
+				"avatar": "https://p-boe.byted.org/img/user-avatar-boe/547d2355b296232aee96eff6dc762902~300x300.image",
+				"student": {
+					"grade": 11,
+					"grade_name": "高二"
+				},
+				"level": 6,
+				"im_user_role": null,
+				"total_score": 2092,
+				"next_level_score": 3150
+			}],
+			"bullet_content": "第1天打脸了"
+		}],
+		"total_user_count": 2344
+	}
+}

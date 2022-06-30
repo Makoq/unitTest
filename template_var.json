@@ -1,0 +1,64 @@
+{
+    "SELECT_OPTIONS": [
+      {
+        "label": "反动敏感",
+        "value": "反动敏感"
+      },
+      {
+        "label": "领导人",
+        "value": "领导人"
+      },
+      {
+        "label": "时政",
+        "value": "时政"
+      },
+      {
+        "label": "违法违规",
+        "value": "违法违规"
+      },
+      {
+        "label": "色情低俗",
+        "value": "色情低俗"
+      },
+      {
+        "label": "社会类",
+        "value": "社会类"
+      },
+      {
+        "label": "财经类",
+        "value": "财经类"
+      },
+      {
+        "label": "近代史",
+        "value": "近代史"
+      },
+      {
+        "label": "财经类",
+        "value": "财经类"
+      },
+      {
+        "label": "财经类",
+        "value": "财经类"
+      },
+      {
+        "label": "未成年人",
+        "value": "未成年人"
+      },
+      {
+        "label": "价值观、学生行为规范",
+        "value": "价值观、学生行为规范"
+      },
+      {
+        "label": "产品相关、引流、广告",
+        "value": "产品相关、引流、广告"
+      },
+      {
+        "label": "其他",
+        "value": "其他"
+      }
+    ],
+    "formStyle": {
+      "margin-top": "10px",
+      "margin-left": "-80px"
+    }
+  }
