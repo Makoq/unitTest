@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>内存测试</title>
+   <style>
+    #container{
+        height: 500px;
+        width: 100%;
+ 
+        background-image: url('https://pic4.zhimg.com/80/v2-b13b7b89e093a83d06da489bf271dadf_1440w.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+
+        
+
+    }
+    #box1{
+        transform: translate3d(0,0,0);
+        height: 200px;
+        width: 200px;
+    }
+    #box2{
+        z-index: 1;
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+    }
+    #box3{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+    }
+  
+   </style>
+</head>
+<body id="container">
+   <div 
+   id="box1"
+   >content
+   <div
+   id="box3"
+   ></div>
+
+  </div>
+  <div
+  id="box2"
+  ></div>
+   <script>
+   </script>
+</body>
+</html>

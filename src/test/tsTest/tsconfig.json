@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "es6",
+        "module": "CommonJS",
         "outDir": "./dist",
         "sourceMap": true,
         "strict": true,
@@ -11,8 +11,15 @@
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
+        // "module": "CommonJS"
+        "esModuleInterop": true,
+
+
     },
-    "include": [
-        "src"
-    ]
+    "include": ["src/**/*.ts", "../tsPrjForAST/src/a.ts"],
+
+    "ts-node": {
+        // Tell ts-node CLI to install the --loader automatically, explained below
+        "esm": true
+      }
 }

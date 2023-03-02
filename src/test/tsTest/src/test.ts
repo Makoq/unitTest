@@ -1,14 +1,17 @@
-interface Obj
-{
-    a:number
-}
-console.log("as");
+class Test
+{ 
+    private age = 12
 
-const a: Array<Obj> = [];
-function fn(i: number)
-{
+    static _name="jack"
     
-    console.log(i);
-    
- }
-fn(a[0]?.a)
+}
+
+class son extends Test
+{ 
+    gender="famle"
+}
+
+
+let s = new son()
+let ss =new Test()
+console.log(s.age,)
